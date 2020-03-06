@@ -1,0 +1,112 @@
+	html, 
+	body	{
+		width:100%;
+		height:100%;
+		padding:0;
+		margin:0;
+		font-family:sans-serif;
+		}
+	div	*{
+		padding:0;
+		margin:0;
+		box-sizing:border-box;
+		}
+	#action	{
+		max-width:451px;
+		max-height:30px;
+		width:100%;
+		height:100%;
+		position:relative;
+		float:left;
+		border-right:5px;
+		border:1px solid rgba(0,0,0);
+		border-style:inset;
+		text-align:center;
+		background:#fff;
+		}
+	#turnhighlight
+		{
+		background: #5cb85c;
+		color: #fff;
+		}
+	#game	{
+		max-height:504px;
+		max-width:504px;
+		width:100%;
+		height:100%;
+		position:relative;
+		margin:20px auto;
+		}
+	.cellprefix
+		{
+		width:100%;
+		height:100%;
+		max-height:50px;
+		max-width:50px;
+		float:left;
+		margin:3px;
+		padding: 15px 0 0 20px;
+		}
+	.gamecell
+		{
+		border:1px solid #00a4a2;
+		width:100%;
+		height:100%;
+		max-height:50px;
+		max-width:50px;
+		float:left;
+		margin:3px;
+		border-radius:5px;
+		padding:0 0 0 6px;
+		font-size:30pt;
+		cursor:pointer;
+		z-index:1;
+		}
+	.grey
+		{
+		background:rgba(0, 0, 0, 0.8);	
+		}
+        
+        
+
+.bg-modal {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.modal-contents {
+	height: 300px;
+	width: 500px;
+	background-color: white;
+	text-align: center;
+	padding: 20px;
+	position: relative;
+	border-radius: 4px;
+}
+
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	
+}
+
+  
